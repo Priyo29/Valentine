@@ -1,0 +1,50 @@
+html,body{
+    height: 100%;
+}
+
+body{
+    background-color: rgb(240, 157, 171);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#placard{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    position: relative;
+
+    background-color: white;
+    height:350px;
+    width:500px ;
+    border-radius: 8%;
+    box-shadow:5px 8px 10px 10px #aaa4a4;
+
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    
+}
+
+#emoji{
+    font-size: 5rem;
+    /* background-color: greenyellow; */
+    
+}
+
+#ask{
+    /* background-color: blue; */
+    font-size: larger;
+    font-weight: bolder;
+
+    padding: 10px;
+}
+
+p {
+  margin: 6px 0;
+}
+
+#last{
+    margin-left: 250px;
+}
